@@ -15,22 +15,30 @@ const styles = StyleSheet.create({
  viewStyle: {
    borderWidth: 3,
    borderColor:'black',
-   height:200,
-
+   flexDirection:'row',
+   justifyContent:'space-between',
+   height:100
  },
  textStyle: {
    borderWidth:2,
-   borderColor:'red'
+   borderColor:'red',
+   height:50,
+   width:50
    },
  textStyleTwo: {
   borderWidth:2,
   borderColor:'yellow',
-  ...StyleSheet.absoluteFillObject
+  height:50,
+  width:50,
+  marginTop:50,
+  alignSelf:'flex-end'
 
 },
 textStyleThree: {
   borderWidth:2,
-  borderColor:'green'
+  borderColor:'green',
+  height:50,
+  width:50
 }
 });
 
